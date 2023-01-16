@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color: grey;
+    background-color: rgba(6, 3, 17, 0.40);
     width: auto;
     height: 120px;
 }   
@@ -49,21 +49,20 @@ margin-left: center;
 
 
 .imaginum1{
-    width: 700px;
+    width: 900px;
     height: 650px;
 }
 
 .imaginum2{
-    width: 700px;
+    width: 900px;
     height: 650px;
 }
 
 /* UNA CARD*/
 .contenedor{
-    background-color: yellow;
-    width: 1200px;
+    width: 1800px;
     height: 200px;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .contendor_parrafo{
     font-size: 30px;
@@ -74,5 +73,82 @@ margin-left: center;
 .contenedordeimagenesindex{
     display: flex;
     flex-direction: row;
-    margin-top: 40px
+    justify-content: space-around;
+    margin-top: 2%
+}
+
+.parrafumindex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    font-size: x-large;
+    width: 400px;
+}
+
+.palabraexterior{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.palabrainterior{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.palabraBAÑOS{
+    margin-left: 170px;
+}
+
+.palabracocinas{
+    margin-left: 50px;
+}
+.palabrasalas{
+    margin-left: 210px;
+}
+.palabracomerciales{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.palabrapiscinas{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+/*Comienzo de la configuracion del footer*/
+
+.piedepagina{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    /*trasnparecia del color con rgba*/
+    background-color: rgba(6, 3, 17, 0.35);
+    align-items: flex-end;
+    margin-top: 3%;
+    height: 80px;
+}
+
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-items: normal;
+}
+
+.derechosreservados{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icono1{
+    margin-right: 25px;
+    size-adjust: 70%;
+}
+.icono2{
+    margin-right: 25px;
+    size-adjust: 70%;
+}
+
+.icono3{
+    margin-right: 25px;
+    size-adjust: 70%;
 }
