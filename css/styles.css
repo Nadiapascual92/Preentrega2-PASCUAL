@@ -114,7 +114,7 @@ margin-left: center;
     margin-left: 190px;
 }
 
-/*Comienzo de la configuracion del footer*/
+/*-------------Comienzo de la configuracion del footer-----------*/
 
 .piedepagina{
     display: flex;
@@ -227,3 +227,116 @@ margin-left: 160px;
     padding-bottom: 18px;
 }
 /*Poner un vinculo al texto y a los iconos que rediriga a la pagina de contacto*/
+
+/*pagina Contacto*/
+.Titulodecontact{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 40px;
+}
+
+.divgeneral{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    width: 1600px;
+    height: 550px;
+}
+
+.divgeneral_section{
+padding-left: 2%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: x-large;
+width: 768px;
+}
+
+.divgeneral_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.divgeneral_h3{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.divgeneral_form{
+     /*trasnparecia del color con rgba*/
+    background-color: rgba(6, 3, 17, 0.25);
+    font-size: x-large;
+    border-color: black;
+    padding-left: 30px;
+    width: 546px;
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    box-shadow: 0 5px 10px -5px rgba(6, 3, 17, 0.70);
+}
+.input_nombre{
+    border-radius: 20%;
+    background-color:rgba(0, 0, 0, 0.554);
+    width: 300px;
+    height: 60px;
+}
+
+.input_numero{
+    border-radius:20%;
+    background-color:  rgba(0, 0, 0, 0.554);
+    width: 300px;
+    height: 50px;
+}
+
+.input_email{
+    border-radius: 20%;
+    background-color:  rgba(0, 0, 0, 0.554);
+    width: 300px;
+    height: 50px;
+}
+
+.input_consulta{
+    border-radius: 20%;
+    background-color:  rgba(0, 0, 0, 0.554);
+    width: 300px;
+    height: 50px;
+    
+}
+.placeholderconsulta{
+    text-decoration:white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.botonenviar{
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100px;
+    height: 25px;
+    font-style: oblique;
+    color: aliceblue;
+    font-weight: 300;
+
+}
+.piedepagina{
+    margin-top: 4%;
+}
+
+.piedepagina_derechos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 19px;
+}
+.iconosfooter{
+    size: 80px;
+    padding-bottom: 19px;
+    height: max-content;
+}
+
+

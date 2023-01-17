@@ -152,5 +152,78 @@ margin-left: center;
     margin-right: 25px;
     size-adjust: 70%;
 }
-/*PAGINA QUIENES SOMOS... COMIENZO DEL CSS*/
+/*aca empieza la pagina nosotros*/
+.navigum2{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.titulonosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px ;
+    font-size: xx-large;
+}
+/*CARD METODO BEM CON FOTO Y PARRAFO*/
+.card_quiensomos{
+    display: flex;
+    flex-wrap: row;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 1800px;
+    height: 650px;
+}
+
+.card_imagen{
+    width: 700px;
+    height: 650px;
+    order: -1;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.card_parrafo{
+    font-size: xx-large ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 40px ;
+}
+/*CARD METODO BEM CON FOTO Y PARRAFO*/
+.card_contenedor{
+display: flex;
+flex-wrap: row;
+margin-top: 1%;
+margin-left: 1%;
+width: 1800px;
+height: 650px;
+margin-left: 160px;
+}
+.card_imagen2{
+    width: 900px;
+    height: 550px;
+    margin-left: 230px ;
+    
+}
+
+.card_parrafo2{
+    font-size: xx-large ;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    justify-content: auto;
+    align-items: stretch;
+    padding-left: 100px;
+}
+/*ACA VAN LOS ICONOS DEL FOOTER*/
+/*FOOTER*/
+.textodelpiedepagina{
+    display: flex;
+    text-align: justify;
+    padding-bottom: 18px;
+}
+/*Poner un vinculo al texto y a los iconos que rediriga a la pagina de contacto*/

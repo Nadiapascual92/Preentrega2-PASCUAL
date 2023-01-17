@@ -10,6 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
 
+    <!--fontawesome-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fontawesome--> 
+
 </head>
 <body>
 <header>
@@ -25,52 +32,63 @@
     </nav>
 
 </header>
+    
+    
     <main>
-        <div>
+        <div class="Titulodecontact">
             <h2>Contactenos para un presupuesto a su medida</h2>
         </div>
+    <main>        
 
-            <section> 
-                <div>
-                    <h3>Haga su consulta para presupuestos acorde a su medida. Trabajamos para oficinas, particulares y empresas.</h3>
-                </div>
-            </section>
-    </main>   
-
-        <div>
-            <form>
+<div class="divgeneral">        
+    <section class="divgeneral_section"> 
+        <h3>Haga su consulta para presupuestos acorde a su medida. Trabajamos para oficinas, particulares y empresas.
+            Mejoramos cualquier propuesta y presupuesto que traiga de otra empresa.
+        </h3>
+    </section>
+   
+        <div class="divgeneral_div">
             
-                <h3>Contacto</h3> 
+            <form class="divgeneral_form">
+            
+                <h3 class="divgeneral_h3">CONTACTO</h3> 
+        
             <div>
-                <input type="nombre y apellido" name="Nombre">
-                <label for="Nombre">"nombre y apellido"</label>
+                <input type="nombre y apellido" name="Nombre" placeholder="NOMBRE Y APELLIDO" class="input_nombre">
             </div>
 
             <div>
-                <input type="Numero" name= "numero de contacto">
-                <label for="numero de contacto">numero de contacto</label>
+                <input type="Numero" name= "numero de contacto" placeholder="MOVIL" class="input_numero">
             </div>
    
-
             <div>
-                <input type="email" name="email">
-                <label for="email">ingrese su email</label>
+                <input type="email" name="email" class="input_email" placeholder="EMAIL">
             </div>
 
             <div>
-                <input type="text" name="consulta">
-                <label for="consulta">Ingrese su pedido o consulta</label>
+                <input type="text" name="consulta"  class="input_consulta" placeholder="CONSULTA" class="placeholderconsulta">
             </div>
 
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Reset">
-                <button>Boton</button>  
+                <button class="botonenviar">ENVIAR</button>  
             </form>
         </div>  
+</div>    
+    <section></section>
+
     
-    
-    <footer>  
-        <h5> Todos los derechos reservados</h5>
+    <footer class="piedepagina">  
+        <div class="piedepagina_derechos">
+            <h5> Todos los derechos reservados</h5>
+        </div>
+        
+        <div>
+            <ul class="iconosfooter">
+                <li class="icono1"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="icono2"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="icono3"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>                  
+            </ul>
+        </div>
+
     </footer>
 </body>
 </html>
