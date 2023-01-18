@@ -339,4 +339,75 @@ width: 768px;
     height: max-content;
 }
 
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
+
+.grid{
+    display: grid;
+    grid-template-rows: 20% 10% 50% 20%;
+    grid-template-columns: 1.5fr 2fr;
+    grid-column-gap: 10px ;
+    grid-row-gap: 10px;
+    grid-template-areas: "header    header"
+                         "section   section"
+                         "main     div"
+                         "footer     footer";
+}   
+   
+
+    .header{    
+        grid-area:header;
+    }
+    .section{
+        grid-area:section;
+    }
+    .main{
+        grid-area:main;
+    }
+    .div{
+        grid-area:div;
+    }
+
+    .piedepagina{ 
+        grid-area:footer;
+    }
+
+    .section{
+        justify-self: center;
+        align-self: auto;
+        font-size: x-large;
+    }
+    .main{
+    justify-self: center;
+    font-size: x-large;
+    align-self: center;
+    margin-left: 30px;
+    }
+    .div{
+        justify-self: center;
+    }
+    
+.piedepagina{
+    margin-bottom: 220px;
+}
+.imagenmapa{
+    width:800px ;
+    height: 500px ;
+}
+
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
+
+
+
+
+/*---------------------PAGINA PROYECTO CON BOOTSTRAP--------------------------*/
+
+
+
+/*---------------------------------PAGINA PROYECTO CON BOOTSTRAP-------------------------------*/
+
+
+
+
+
+
 
