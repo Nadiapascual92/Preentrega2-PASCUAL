@@ -432,10 +432,6 @@ ul li a {
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
 /*---------------------PAGINA PROYECTO CON BOOTSTRAP--------------------------*/
 /*---------------------------------PAGINA PROYECTO CON BOOTSTRAP-------------------------------*/
-.container {
-  background-color: aqua;
-}
-
 .h1proyecto {
   text-align: center;
   font-size: 50px;
@@ -444,7 +440,7 @@ ul li a {
 }
 
 .tamamo {
-  font-size: x-large;
+  font-size: large;
   margin-top: 40px;
 }
 
@@ -456,3 +452,12 @@ ul li a {
   font-size: 40px;
 }
 
+/*
+.pruebaSASS{
+    font-style: $primary;
+}*/
+/**************galeria de imagenes*********/
+.disenio {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=misas.css.map */
