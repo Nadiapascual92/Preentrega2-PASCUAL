@@ -460,4 +460,9 @@ ul li a {
 .disenio {
   height: 100%;
   width: 100%;
+}
+
+.alineacionfotos {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=misas.css.map */
