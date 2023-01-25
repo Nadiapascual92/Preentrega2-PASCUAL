@@ -87,7 +87,7 @@ margin-left: center;
 
 /* UNA CARD*/
 .contenedor{
-    width: 1800px;
+    width: 1500px;
     height: 200px;
     margin-left: 15%;
 }
@@ -147,11 +147,11 @@ margin-left: center;
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    /*trasnparecia del color con rgba*/
-    background-color: rgba(6, 3, 17, 0.35);
-    align-items: flex-end;
-    margin-top: 3%;
-    height: 80px;
+    width: auto;
+    height: auto;
+    justify-items: auto;
+    background-color: NONE;
+    margin-bottom: 0px;
 }
 
 .iconosfooter{
@@ -253,7 +253,6 @@ margin-left: 160px;
     text-align: justify;
     padding-bottom: 18px;
 }
-/*Poner un vinculo al texto y a los iconos que rediriga a la pagina de contacto*/
 
 /*pagina Contacto*/
 .Titulodecontact{
@@ -373,7 +372,7 @@ width: 768px;
     grid-template-rows: 20% 10% 50% 20%;
     grid-template-columns: 1.5fr 2fr;
     grid-column-gap: 10px ;
-    grid-row-gap: 10px;
+    grid-row-gap: 30px;
     grid-template-areas: "header    header"
                          "section   section"
                          "main     div"
@@ -413,12 +412,12 @@ width: 768px;
         justify-self: center;
     }
     
-.piedepagina{
-    margin-bottom: 220px;
-}
+/*.piedepagina{
+    margin-bottom: 220px;*/
+
 .imagenmapa{
-    width:800px ;
-    height: 500px ;
+    width:600px ;
+    height: 600px ;
 }
 
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
@@ -464,3 +463,10 @@ width: 768px;
     display: flex;
     justify-content: space-between;
 }
+
+/***//////////////////
+footer{
+    margin-bottom: 0px;
+}
+
+

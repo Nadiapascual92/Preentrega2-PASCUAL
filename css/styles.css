@@ -121,10 +121,7 @@ margin-left: center;
     flex-direction:row;
     justify-content: space-evenly;
     /*trasnparecia del color con rgba*/
-    background-color: rgba(6, 3, 17, 0.35);
-    align-items: flex-end;
-    margin-top: 3%;
-    height: 80px;
+    height: auto;
 }
 
 .iconosfooter{
@@ -386,8 +383,8 @@ width: 768px;
         justify-self: center;
     }
     
-.piedepagina{
-    margin-bottom: 220px;
+/*.piedepagina{
+    margin-bottom: 220px;*/
 }
 .imagenmapa{
     width:800px ;
