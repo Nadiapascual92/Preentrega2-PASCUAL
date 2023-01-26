@@ -448,10 +448,6 @@ ul li a {
   font-size: 40px;
 }
 
-/*
-.pruebaSASS{
-    font-style: $primary;
-}*/
 /**************galeria de imagenes*********/
 .disenio {
   height: 100%;
@@ -470,8 +466,6 @@ footer {
 
 /*----------------------------------------MEDIAQUERIES RESPONSIVE---------------------------------*/
 /*----------------------------------------MEDIAQUERIES RESPONSIVE-------------------------------------*/
-/*----------------------------------------MEDIAQUERIES RESPONSIVE---------------------------------*/
-/*----------------------------------------MEDIAQUERIES RESPONSIVE--------------------------------*/
 /*----------------------------------------MEDIAQUERIES RESPONSIVE---------------------------*/
 /*DISENIO RESPONSIVE PARA TABLETS */
 @media screen and (max-width: 1023px) {
@@ -982,4 +976,28 @@ footer {
     text-align: left;
     font-size: small;
   }
+}
+#magic {
+  display: flex;
+  justify-content: center;
+}
+
+.magic {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#mimagic {
+  display: flex;
+  justify-content: center;
+}
+
+#nairobi {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#Dinamarca {
+  font-size: xx-large;
 }/*# sourceMappingURL=misas.css.map */

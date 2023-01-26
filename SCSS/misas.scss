@@ -439,10 +439,6 @@ width: 768px;
     font-size:  40px;
 }
 
-/*
-.pruebaSASS{
-    font-style: $primary;
-}*/
 
 /**************galeria de imagenes*********/
 
@@ -463,8 +459,6 @@ footer{
 
 /*----------------------------------------MEDIAQUERIES RESPONSIVE---------------------------------*/
 /*----------------------------------------MEDIAQUERIES RESPONSIVE-------------------------------------*/
-/*----------------------------------------MEDIAQUERIES RESPONSIVE---------------------------------*/
-/*----------------------------------------MEDIAQUERIES RESPONSIVE--------------------------------*/
 /*----------------------------------------MEDIAQUERIES RESPONSIVE---------------------------*/
 
 /*DISENIO RESPONSIVE PARA TABLETS */
@@ -1064,4 +1058,24 @@ footer{
     }
 }
 
-
+    
+#magic{
+    display: flex;
+    justify-content: center;
+    }
+.magic{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#mimagic{
+    display: flex;
+    justify-content: center;
+}
+#nairobi{
+    font-size: x-large;
+    font-weight: bold;
+}
+#Dinamarca{
+    font-size: xx-large;
+}
