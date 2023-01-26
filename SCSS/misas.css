@@ -13,10 +13,6 @@ npm install -D node-sass nodemonnpm install -D node-sass nodemon .navigum {
   background-color: aquamarine;
 }
 
-.uno {
-  background-color: crimson;
-}
-
 /**********------------------------copia de mi css para pasar todo a sass-------------------------********/
 * {
   padding: 0;
@@ -1006,7 +1002,7 @@ footer {
   font-size: xx-large;
 }
 
-@media screen and (max-width: 350px) {
+@media only screen and (min-width: 320px) and (max-width: 350px) {
   header#londres {
     width: 100%;
   }
@@ -1034,4 +1030,28 @@ footer {
     font-size: small;
   }
 }
-/*-------------------------DISENIO RESPONSIVE PARA MOVILES--------------------------*//*# sourceMappingURL=misas.css.map */
+section#lima {
+  width: 80%;
+  height: 70%;
+}
+
+main#nuevayork {
+  width: 60%;
+  height: 70%;
+}
+
+section#montevideo {
+  width: 60%;
+  height: 70%;
+}
+
+/*-------------------------DISENIO RESPONSIVE --------------------------*/
+#Navarra {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#tarragona {
+  font-size: larger;
+}/*# sourceMappingURL=misas.css.map */

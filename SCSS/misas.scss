@@ -19,9 +19,6 @@ node-sass nodemon
     background-color: aquamarine;
 }
 
-.uno{
-    background-color: crimson;
-}
 
 /**********------------------------copia de mi css para pasar todo a sass-------------------------********/
 
@@ -804,8 +801,6 @@ footer{
 }
 
 
-
-
 @media only screen and (min-width: 480px) and (max-width:1024px){
     .bodyqery1 {
         background-image: url("../img/background.jpg");
@@ -1073,7 +1068,7 @@ footer{
     font-size: xx-large;
 }
 
-@media screen and (max-width: 350px){
+@media only screen and (min-width:320px) and (max-width: 350px){
     header#londres{
         width: 100%;
     }
@@ -1096,13 +1091,36 @@ footer{
      section header nav ul li#bolivia{
         font-weight: bold;
         justify-content: start;
-     }
-     footer div h4#tailand{
+    }
+    footer div h4#tailand{
         font-size: small;
-     }
+    }
 }
 
-/*-------------------------DISENIO RESPONSIVE PARA MOVILES--------------------------*/
-@media screen and (max-width:478px){
-    
+
+section#lima{
+    width: 80%;
+    height: 70%;
+}
+main#nuevayork{
+    width: 60%;
+    height: 70%;
+}
+
+section#montevideo{
+    width: 60%;
+    height: 70%;
+}
+
+/*-------------------------DISENIO RESPONSIVE --------------------------*/
+
+#Navarra{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#tarragona{
+    footer div ul#tarragona{}
+    font-size: larger;
 }
