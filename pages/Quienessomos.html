@@ -2,31 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta
-     http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--------------FONTAWESOME-------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!---------------------------------------------->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIENES SOMOS</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-
-
+    <!----------------------------------------CDN DE BOOTSTRAP------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    <!---CDN DE BOOSTRAP-->
     <!------------------------------------  SASS--------------------------------------->
     <link rel="stylesheet" href="../SCSS/misas.scss">
     <link rel="stylesheet" href="../SCSS/misas.css">
     <!------------------------------------  --------------------------------------->
 
-
-
 </head>
 
-<body>
+<body class="bodyqery1">
     <header>
         <nav>
             <ul class="navigum2"> 
@@ -41,7 +39,7 @@
         </nav>
     </header>
     
-    <main> 
+    <main class="querymain"> 
         <h1 class="titulonosotros">SOBRE NOSOTROS</h1>
     
         <!--Esto es una card metodolodia BEM-->
@@ -54,20 +52,29 @@
     </div>
     
     </main>
+
+
+
+
+
     <!--esto es otra card con BEM-->
-    
-    <div class="card_contenedor">
-        <p class="card_parrafo2">Gracias a nuestra experiencia, seriedad, a las garantías y el compromiso que ofrecemos, y nuestros proyectos, 
-            podemos ofrecer a nuestros clientes: Tranquilidad, Calidad y un Precio sin competencia.Trabajamos con el concepto llave en mano. Al finalizar el proyecto recibira
-        asaesoriamiento de interioristas para la decoracion de sus ambientes.</p>
-        <img class="card_imagen2" src="../img/imgbusiness.jpg" alt="trabajoenequipo">
-    </div>
-        
-    <!--FOOTER-->
+        <div class="card_contenedor">
+            <p class="card_parrafo2">Gracias a nuestra experiencia, seriedad, a las garantías y el compromiso que ofrecemos, y nuestros proyectos, podemos ofrecer a nuestros clientes: Tranquilidad, Calidad y un Precio sin competencia.Trabajamos con el concepto llave en mano. Al finalizar el proyecto recibira asaesoriamiento de interioristas para la decoracion de sus ambientes.</p>
+            <img class="card_imagen2" src="../img/imgbusiness.jpg" alt="trabajoenequipo">
+        </div>
+
+
+
+
+
+
+
+
+    <!---------------------------------------FOOTER---------------------------------------------------->
 
     <footer class="piedepagina">
         <div class="derechosreservados">
-            <h3>Todos los derechos reservados</h3>
+            <h3 id="textumqeryfooter">Todos los derechos reservados</h3>
         </div>
         
         <h3 class="textodelpiedepagina">Contactenos para mas informacion<h3>
@@ -80,9 +87,10 @@
             </ul>
         </div>
 
-            <!--Falta colocar los iconos en el footer-->
-
     </footer>
-
+<!----CDN JAVASCRIPTS /POOPER PARA BOOSTRASTRAP------->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<!----CDN JAVASCRIPTS/ POOPER PARA BOOSTRASTRAP------->
 </body>
 </html>
