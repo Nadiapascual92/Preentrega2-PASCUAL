@@ -1000,4 +1000,38 @@ footer {
 
 #Dinamarca {
   font-size: xx-large;
-}/*# sourceMappingURL=misas.css.map */
+}
+
+#paris {
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 350px) {
+  header#londres {
+    width: 100%;
+  }
+  nav#berlin {
+    width: 100%;
+  }
+  ul#moncloa {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: medium;
+    font-style: bold;
+    margin: auto;
+  }
+  .navigum {
+    font-size: medium;
+    font-size: bold;
+  }
+  section header nav ul li#bolivia {
+    font-weight: bold;
+    justify-content: start;
+  }
+  footer div h4#tailand {
+    font-size: small;
+  }
+}
+/*-------------------------DISENIO RESPONSIVE PARA MOVILES--------------------------*//*# sourceMappingURL=misas.css.map */
