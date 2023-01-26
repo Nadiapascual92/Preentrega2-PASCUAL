@@ -1,40 +1,96 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fontawesome--> 
+    <!------------------------------------  SASS--------------------------------------->
+    <link rel="stylesheet" href="../SCSS/misas.scss">
+    <link rel="stylesheet" href="./SCSS/misas.css">
+    <!------------------------------------  SASS--------------------------------------->
+
 </head>
 <body>
+<header>
+    <nav>
+        <ul class="navigum"> 
+            <li><a href="../index.html">Index</a></li>
+            <li class="alinium"><a href="./Dondeestamos.html">Donde estamos</a></li>
+            <li><a href="./Proyecto.html">Proyecto</a></li>
+            <li class="alinium"><a href="./Galeria.html">Galerìa de imagenes</a></li>
+            <li><a href="./Quienessomos.html">Quienes somos</a></li>
+            <li class="alinium"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+</header>
     
+    
+    <main>
+        <div class="Titulodecontact">
+            <h2>Contactenos para un presupuesto a su medida</h2>
+        </div>
+    <main>        
 
-
-
-
-    <form  class="divgeneral_form">
+<div class="divgeneral">        
+    <section class="divgeneral_section"> 
+        <h3>Haga su consulta para presupuestos acorde a su medida. Trabajamos para oficinas, particulares y empresas.
+            Mejoramos cualquier propuesta y presupuesto que traiga de otra empresa.
+        </h3>
+    </section>
+   
+        <div class="divgeneral_div">
             
-        <h3 class="divgeneral_h3">CONTACTO</h3> 
+            <form class="divgeneral_form">
+            
+                <h3 class="divgeneral_h3">CONTACTO</h3> 
+        
+            <div>
+                <input type="nombre y apellido" name="Nombre" placeholder="NOMBRE Y APELLIDO" class="input_nombre">
+            </div>
 
-    <div>
-        <input type="nombre y apellido" name="Nombre" placeholder="NOMBRE Y APELLIDO" class="input_nombre">
-    </div>
+            <div>
+                <input type="Numero" name= "numero de contacto" placeholder="MOVIL" class="input_numero">
+            </div>
+   
+            <div>
+                <input type="email" name="email" class="input_email" placeholder="EMAIL">
+            </div>
 
-    <div>
-        <input type="Numero" name= "numero de contacto" placeholder="MOVIL" class="input_numero">
-    </div>
+            <div>
+                <input type="text" name="consulta"  class="input_consulta" placeholder="CONSULTA" class="placeholderconsulta">
+            </div>
 
-    <div>
-        <input type="email" name="email" class="input_email" placeholder="EMAIL">
-    </div>
+                <button class="botonenviar">ENVIAR</button>  
+            </form>
+        </div>  
+</div>    
+    <section></section>
 
-    <div>
-        <input type="text" name="consulta"  class="input_consulta" placeholder="CONSULTA" class="placeholderconsulta">
-    </div>
+    
+    <footer class="piedepagina">  
+        <div class="piedepagina_derechos">
+            <h3> Todos los derechos reservados</h3>
+        </div>
+        
+        <div>
+            <ul class="iconosfooter">
+                <li class="icono1"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="icono2"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="icono3"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>                  
+            </ul>
+        </div>
 
-        <button class="botonenviar">ENVIAR</button>  
-    </form>
-
-
+    </footer>
 </body>
 </html>
