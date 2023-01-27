@@ -1,0 +1,52 @@
+/*-----------------GRIDS DE PAGINA UBICACION CON EL MAPA------------------*/
+.grid{
+    display: grid;
+    grid-template-rows: 20% 10% 50% 20%;
+    grid-template-columns: 1.5fr 2fr;
+    grid-column-gap: 10px ;
+    grid-row-gap: 30px;
+    grid-template-areas: "header    header"
+                         "section   section"
+                         "main     div"
+                         "footer     footer";
+}   
+   
+
+    .header{
+        background-color: $primary;    
+        grid-area:header;
+    }
+    .section{
+        grid-area:section;
+    }
+    .main{
+        grid-area:main;
+    }
+    .div{
+        grid-area:div;
+    }
+
+    .piedepagina{ 
+        grid-area:footer;
+    }
+
+    .section{
+        justify-self: center;
+        align-self: auto;
+        font-size: x-large;
+    }
+    .main{
+    justify-self: center;
+    font-size: x-large;
+    align-self: center;
+    margin-left: 30px;
+    }
+    .div{
+        justify-self: center;
+    }
+    
+
+.imagenmapa{
+    width: 350px;
+    height: 300px;
+}

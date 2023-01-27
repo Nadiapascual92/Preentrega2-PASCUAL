@@ -1,9 +1,12 @@
 @import"../SCSS/variables/misvariables";
 @import"../SCSS/componentes/header";
+@import"../SCSS/componentes/imagens";
 @import"../SCSS/componentes/titles";
 @import"../SCSS/normalize/reset";
 @import"../SCSS/componentes/cards";
-
+@import"../SCSS/componentes/footer";
+@import"../SCSS/views/queryes";
+@import"../SCSS/layout/grids";
 
 npm install -D 
 node-sass nodemonnpm install -D 
@@ -134,7 +137,7 @@ ul li a{
 
 /*-------------Comienzo de la configuracion del footer-----------*/
 
-.piedepagina{
+/*.piedepagina{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
@@ -169,7 +172,7 @@ ul li a{
 .icono3{
     margin-right: 25px;
     size-adjust: 70%;
-}
+}*/
 /*aca empieza la pagina nosotros*/
 .titulonosotros{
     display: flex;
@@ -349,7 +352,7 @@ width: 768px;
 
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
 
-.grid{
+/*.grid{
     display: grid;
     grid-template-rows: 20% 10% 50% 20%;
     grid-template-columns: 1.5fr 2fr;
@@ -397,9 +400,10 @@ width: 768px;
     
 
 .imagenmapa{
-    width:600px ;
-    height: 600px ;
+    width: 310px ;
+    height: 310px ;
 }
+-------*/
 
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
 /*---------------------PAGINA PROYECTO CON BOOTSTRAP--------------------------*/

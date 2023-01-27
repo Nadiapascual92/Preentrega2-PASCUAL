@@ -47,6 +47,31 @@ ul li a {
   font-size: xx-large;
 }
 
+p.contendor_parrafo {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecera;
+          animation-name: aparecera;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes aparecera {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 10;
+  }
+}
+@keyframes aparecera {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 10;
+  }
+}
+
 .transfor {
   transform: scale(20px, 30px);
 }
@@ -58,14 +83,6 @@ body section h1.transfor {
           animation-name: aparecera;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-}
-@-webkit-keyframes aparecera {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 @keyframes aparecera {
   0% {
@@ -92,6 +109,170 @@ body section h1.transfor {
 }
 .main_phone {
   font-size: xx-large;
+}
+
+/*-------------Comienzo de la configuracion del footer-----------*/
+.piedepagina {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  justify-items: auto;
+  background-color: rgba(6, 3, 17, 0.4);
+  margin-bottom: 0px;
+}
+
+.iconosfooter {
+  display: flex;
+  flex-direction: row;
+  justify-items: normal;
+}
+
+.derechosreservados {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icono1 {
+  margin-right: 25px;
+  size-adjust: 70%;
+}
+
+.icono2 {
+  margin-right: 25px;
+  size-adjust: 70%;
+}
+
+.icono3 {
+  margin-right: 25px;
+  size-adjust: 70%;
+  transform: scale(100px, 100px);
+}
+
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  QUERYS DE MOVIL---------------*/
+@media screen and (max-width: 479px) {
+  header nav.mifleix ul.navigum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    text-align: start;
+    width: auto;
+    height: auto;
+  }
+  body.grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    justify-items: center;
+  }
+  main.main {
+    margin-left: 0px;
+    height: auto;
+    width: auto;
+  }
+  section {
+    padding-left: 40px;
+  }
+  .section h1.transfor {
+    height: 30%;
+    width: 15%;
+  }
+  h3.main_parrafito {
+    font-size: medium;
+  }
+  h3.main_phone {
+    font-size: medium;
+  }
+  #transforming {
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+    -webkit-animation-name: aparecera;
+            animation-name: aparecera;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes aparecera {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes aparecera {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .imagenmapa {
+    padding: 50px;
+    width: 150;
+    height: 150px;
+  }
+}
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  QUERYS DE TABLE---------------*/
+/*-----------------GRIDS DE PAGINA UBICACION CON EL MAPA------------------*/
+.grid {
+  display: grid;
+  grid-template-rows: 20% 10% 50% 20%;
+  grid-template-columns: 1.5fr 2fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 30px;
+  grid-template-areas: "header    header" "section   section" "main     div" "footer     footer";
+}
+
+.header {
+  background-color: rgba(6, 3, 17, 0.4);
+  grid-area: header;
+}
+
+.section {
+  grid-area: section;
+}
+
+.main {
+  grid-area: main;
+}
+
+.div {
+  grid-area: div;
+}
+
+.piedepagina {
+  grid-area: footer;
+}
+
+.section {
+  justify-self: center;
+  align-self: auto;
+  font-size: x-large;
+}
+
+.main {
+  justify-self: center;
+  font-size: x-large;
+  align-self: center;
+  margin-left: 30px;
+}
+
+.div {
+  justify-self: center;
+}
+
+.imagenmapa {
+  width: 350px;
+  height: 300px;
 }
 
 npm install -D node-sass nodemonnpm install -D node-sass nodemon .navigum {
@@ -224,44 +405,42 @@ ul li a {
 }
 
 /*-------------Comienzo de la configuracion del footer-----------*/
-.piedepagina {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: auto;
-  height: auto;
-  justify-items: auto;
-  background-color: NONE;
-  margin-bottom: 0px;
+/*.piedepagina{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    justify-items: auto;
+    background-color: NONE;
+    margin-bottom: 0px;
 }
 
-.iconosfooter {
-  display: flex;
-  flex-direction: row;
-  justify-items: normal;
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-items: normal;
 }
 
-.derechosreservados {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+.derechosreservados{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.icono1 {
-  margin-right: 25px;
-  size-adjust: 70%;
+.icono1{
+    margin-right: 25px;
+    size-adjust: 70%;
+}
+.icono2{
+    margin-right: 25px;
+    size-adjust: 70%;
 }
 
-.icono2 {
-  margin-right: 25px;
-  size-adjust: 70%;
-}
-
-.icono3 {
-  margin-right: 25px;
-  size-adjust: 70%;
-}
-
+.icono3{
+    margin-right: 25px;
+    size-adjust: 70%;
+}*/
 /*aca empieza la pagina nosotros*/
 .titulonosotros {
   display: flex;
@@ -449,58 +628,58 @@ ul li a {
 }
 
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
-.grid {
-  display: grid;
-  grid-template-rows: 20% 10% 50% 20%;
-  grid-template-columns: 1.5fr 2fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 30px;
-  grid-template-areas: "header    header" "section   section" "main     div" "footer     footer";
-}
+/*.grid{
+    display: grid;
+    grid-template-rows: 20% 10% 50% 20%;
+    grid-template-columns: 1.5fr 2fr;
+    grid-column-gap: 10px ;
+    grid-row-gap: 30px;
+    grid-template-areas: "header    header"
+                         "section   section"
+                         "main     div"
+                         "footer     footer";
+}   
 
-.header {
-  background-color: rgba(6, 3, 17, 0.4);
-  grid-area: header;
-}
 
-.section {
-  grid-area: section;
-}
+    .header{
+        background-color: $primary;    
+        grid-area:header;
+    }
+    .section{
+        grid-area:section;
+    }
+    .main{
+        grid-area:main;
+    }
+    .div{
+        grid-area:div;
+    }
 
-.main {
-  grid-area: main;
-}
+    .piedepagina{ 
+        grid-area:footer;
+    }
 
-.div {
-  grid-area: div;
-}
+    .section{
+        justify-self: center;
+        align-self: auto;
+        font-size: x-large;
+    }
+    .main{
+    justify-self: center;
+    font-size: x-large;
+    align-self: center;
+    margin-left: 30px;
+    }
+    .div{
+        justify-self: center;
+    }
 
-.piedepagina {
-  grid-area: footer;
-}
 
-.section {
-  justify-self: center;
-  align-self: auto;
-  font-size: x-large;
+.imagenmapa{
+    width: 310px ;
+    height: 310px ;
 }
-
-.main {
-  justify-self: center;
-  font-size: x-large;
-  align-self: center;
-  margin-left: 30px;
-}
-
-.div {
-  justify-self: center;
-}
-
-.imagenmapa {
-  width: 600px;
-  height: 600px;
-}
-
+-------*/
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  CON SISTEMA GRIDS---------------*/
 /*---------------------PAGINA PROYECTO CON BOOTSTRAP--------------------------*/
 .h1proyecto {

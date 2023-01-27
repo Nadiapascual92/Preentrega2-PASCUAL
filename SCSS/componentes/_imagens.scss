@@ -1,0 +1,17 @@
+@import"../variables/misvariables";
+
+
+p.contendor_parrafo{
+    animation-duration: 5s;
+    animation-name: aparecera;
+    animation-iteration-count: infinite;
+
+@keyframes aparecera {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:10;
+    }
+    }
+}

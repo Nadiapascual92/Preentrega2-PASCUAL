@@ -1,0 +1,73 @@
+@import"../variables/misvariables";
+
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  QUERYS DE MOVIL---------------*/
+@media screen and (max-width: 479px){
+    header nav.mifleix ul.navigum{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        text-align: start;
+        width: auto;
+        height: auto;
+    }
+
+    body.grid{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: crimson;
+        width:auto;
+        height: auto;
+        justify-items: center;
+    }
+    main.main{
+        margin-left: 0px;
+        height:auto;
+        width: auto;
+    }
+    section{
+        padding-left: 40px
+    }
+
+
+    .section h1.transfor{
+        height: 30%;
+        width: 15%;
+    }
+
+    h3.main_parrafito{
+        font-size: medium;
+    }
+    h3.main_phone{
+        font-size: medium;
+
+    }
+    #transforming{
+        animation-duration: 7s;
+        animation-name: aparecera;
+        animation-iteration-count: infinite;
+        @keyframes aparecera {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity:1;
+            }
+        }
+        
+    }
+    .imagenmapa{
+        padding:50px;
+        width: 150;
+        height: 150px;
+    }
+}
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  QUERYS DE TABLE---------------*/
+
+@media screen and (max-width: 1023px){
+
+
+}

@@ -1,0 +1,43 @@
+/*-------------Comienzo de la configuracion del footer-----------*/
+@import"../variables/misvariables";
+
+.piedepagina{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    justify-items: auto;
+    background-color: $primary;
+    margin-bottom: 0px;
+}
+
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-items: normal;
+}
+
+.derechosreservados{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icono1{
+    margin-right: 25px;
+    size-adjust: 70%;
+}
+.icono2{
+    margin-right: 25px;
+    size-adjust: 70%;
+}
+
+.icono3{
+    margin-right: 25px;
+    size-adjust: 70%;
+    transform: scale(100px, 100px);
+}
+
+
+
