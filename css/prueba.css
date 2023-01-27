@@ -243,6 +243,28 @@ body section h1.transfor {
     justify-items: auto;
     margin-top: 3%; } }
 
+/******queryes desktop******************/
+@media screen and (min-width: 1024px) {
+  .headerqery1 {
+    width: auto;
+    background-color: red; }
+  .piedepagina {
+    width: auto; }
+  .imaginum1 {
+    width: 300px;
+    height: 300px; }
+  .imaginum2 {
+    width: 300px;
+    height: 300px; }
+  div.contenedor {
+    background-color: chocolate;
+    width: 70%; }
+  p.contendor_parrafo {
+    background-color: blue;
+    width: 600px;
+    font-size: large;
+    margin: 50px; } }
+
 /*-----------------GRIDS DE PAGINA UBICACION CON EL MAPA------------------*/
 .grid {
   display: grid;
@@ -339,12 +361,12 @@ ul li a {
   margin-left: center; }
 
 .imaginum1 {
-  width: 900px;
-  height: 650px; }
+  width: 500px;
+  height: 550px; }
 
 .imaginum2 {
-  width: 900px;
-  height: 650px; }
+  width: 500px;
+  height: 550px; }
 
 /* UNA CARD*/
 .contenedor {
