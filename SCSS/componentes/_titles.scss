@@ -1,0 +1,22 @@
+@import"../variables/misvariables";
+
+.transfor{
+    transform: $escalar;
+}
+
+
+
+body section h1.transfor{
+    animation-duration: 7s;
+    animation-name: aparecera;
+    animation-iteration-count: infinite;
+
+@keyframes aparecera {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+    }
+}

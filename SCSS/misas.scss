@@ -1,9 +1,13 @@
+@import"../SCSS/variables/misvariables";
+@import"../SCSS/componentes/header";
+@import"../SCSS/componentes/titles";
+@import"../SCSS/normalize/reset";
+@import"../SCSS/componentes/cards";
+
+
 npm install -D 
 node-sass nodemonnpm install -D 
 node-sass nodemon
-
-
-
 
 .navigum{
     display:flex ;
@@ -19,24 +23,14 @@ node-sass nodemon
     background-color: aquamarine;
 }
 
-
-/**********------------------------copia de mi css para pasar todo a sass-------------------------********/
-
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Roboto Mono', monoespaciado;
-}
-
 body{
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*------------------MODIFICANDO EL HEADER-------------------*/
 header{
-    background-color: rgba(6, 3, 17, 0.40);
+    background-color: $primary;
     width: 100%;
     height: 120px;
 }   
@@ -65,10 +59,10 @@ ul li a{
 }
 
 .tituloh2{
-display: flex;
-justify-content: center;
-margin-top: 50px;
-margin-left: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: center;
 } 
 
 
@@ -177,14 +171,6 @@ margin-left: center;
     size-adjust: 70%;
 }
 /*aca empieza la pagina nosotros*/
-.navigum2{
-    display:flex ;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .titulonosotros{
     display: flex;
     justify-content: center;
@@ -376,7 +362,8 @@ width: 768px;
 }   
    
 
-    .header{    
+    .header{
+        background-color: $primary;    
         grid-area:header;
     }
     .section{
@@ -408,8 +395,6 @@ width: 768px;
         justify-self: center;
     }
     
-/*.piedepagina{
-    margin-bottom: 220px;*/
 
 .imagenmapa{
     width:600px ;
@@ -1116,4 +1101,12 @@ section#montevideo{
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.grid  
+    header  
+        nav 
+            li 
+                a:hover{    
+                        font-size: $terciary;
 }

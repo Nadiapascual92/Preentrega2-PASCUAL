@@ -1,0 +1,13 @@
+@import"../variables/misvariables";
+
+.main{
+    background-color: $primary;
+    font-style: oblique;
+
+    &_parrafito{  
+        font-size: $largin
+    }
+    &_phone{
+        font-size:$largin;
+    }
+}
