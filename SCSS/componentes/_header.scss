@@ -49,3 +49,13 @@ ul li a{
     }
 }
 
+.navigum{
+    li{
+        a{
+            &:hover{
+                font-size:$terciary
+            }
+        }
+    }
+}
+

@@ -37,6 +37,9 @@ ul li a {
 .navigum2 li a:hover {
   font-size: xx-large; }
 
+.navigum li a:hover {
+  font-size: xx-large; }
+
 .transfor {
   transform: scale(20px, 30px); }
 
