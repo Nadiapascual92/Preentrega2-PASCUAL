@@ -195,7 +195,6 @@
 @media screen and (min-width: 1024px) {
     .headerqery1{
         width: auto;
-        background-color: red;
     }
     .piedepagina{   
                 width: auto;
@@ -206,17 +205,93 @@
         }
             
     .imaginum2{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         }       
+        div.imaginum2{
+            width: 60%;
+        }
         div.contenedor{
-            background-color: chocolate;
-            width: 70%;
+            width: 80%;
         }
     p.contendor_parrafo{
-        background-color: blue;
-        width: 600px;
-        font-size:large;
+        width: 900px;
+        font-size:x-large;
+        text-align: center;
         margin: 50px;
+    }
+    div.contenedordeimagenesindex{
+        width: 80%;
+    }
+    div.parrafumindex{
+        width: 70%;
+    }
+}
+
+/*index ------------------------------movil*/
+@media screen and (max-width: 479px){
+        body header ul.navigum{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        text-align: start;
+        width: auto;
+        height: auto;
+    }
+    div.contenedordeimagenesindex{
+        width: 70%;
+        height: 70%;
+    }
+
+    div.contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+    }
+    div#dies{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div.contenedor{
+            width: 60%;
+            height: 40px;
+        }
+    div.contenedor p{
+        font-size: x-small;
+        height: 40px;
+        width: 60%;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .imaginum1{
+        width: 100px;
+        height: 100px;
+        }
+            
+    .imaginum2{
+        width: 100px;
+        height: 100px;
+        }       
+        div.imaginum2{
+            width: 40%;
+        }
+    div.contenedordeimagenesindex{
+        width: 50%;
+    }
+    div.parrafumindex{
+        width: 40%;
+    }
+    div#dies{
+        width: 200px;
+        height: 50px  
     }
 }
