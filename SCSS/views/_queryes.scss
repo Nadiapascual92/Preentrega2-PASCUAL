@@ -18,7 +18,6 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
-        background-color: crimson;
         width:auto;
         height: auto;
         justify-items: center;
@@ -29,7 +28,7 @@
         width: auto;
     }
     section{
-        padding-left: 40px
+        padding-left: 40px;
     }
 
 
@@ -46,7 +45,7 @@
 
     }
     #transforming{
-        animation-duration: 7s;
+        animation-duration: 4s;
         animation-name: aparecera;
         animation-iteration-count: infinite;
         @keyframes aparecera {
@@ -64,10 +63,66 @@
         width: 150;
         height: 150px;
     }
+    .main_parrafito{
+        background-color: $blacky;
+        font-size: small;
+    }
 }
 /*-------------------******PAGINA DONDE ESTAMOS UBICADOS  QUERYS DE TABLE---------------*/
 
 @media screen and (max-width: 1023px){
 
+/*-----------------GRIDS DE PAGINA UBICACION CON EL MAPA------------------*/
+.grid{
+    display: grid;
+    grid-template-rows: 20% 20% 30% 200%;
+    grid-template-columns: 1.5fr 2fr;
+    grid-column-gap: 5px ;
+    grid-row-gap: 15px;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "header    header"
+                         "section   section"
+                         "main     div"
+                         "footer     footer";
+}   
+   
 
+    .header{
+        background-color: $primary;    
+        grid-area:header;
+    }
+    .section{
+        grid-area:section;
+    }
+    .main{
+        grid-area:main;
+    }
+    .div{
+        grid-area:div;
+    }
+
+    .piedepagina{ 
+        grid-area:footer;
+    }
+
+    .section{
+        justify-self: center;
+        align-self: auto;
+        font-size: x-large;
+    }
+    .main{
+    justify-self: center;
+    font-size: x-large;
+    align-self: center;
+    margin-left: 30px;
+    }
+    .div{
+        justify-self: center;
+    }
+.main_parrafito{
+    font-size: small;
 }
+}
+
+/*-------------------******PAGINA DONDE ESTAMOS UBICADOS  QUERYS DE TABLE---------------*/
